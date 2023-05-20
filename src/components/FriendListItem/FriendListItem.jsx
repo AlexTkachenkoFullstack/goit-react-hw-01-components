@@ -7,12 +7,12 @@ export const FriendListItem = ({ friends }) =>
         friends.map(({ avatar, name, isOnline, id }) => {
             const className = [css.status, (isOnline ? css.green  : css.red)]
             return(<li key={id}  className={css.item}>
-                        <span className= {className.join(" ")}>
-                        </span>
-                <img className={css.avatar} src={avatar} alt={name} width="48" />
-                <p className={css.name}>{ name}</p>
+                        <span className= {className.join(" ")}></span>
+                        <img className={css.avatar} src={avatar} alt={name} width="48" />
+                         <p className={css.name}>{ name}</p>
                     </li >)
-                     })
+        })
+        
             )
        
 }
