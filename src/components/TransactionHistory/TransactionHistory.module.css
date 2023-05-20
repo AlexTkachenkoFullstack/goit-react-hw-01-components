@@ -4,7 +4,7 @@
     margin-right: auto;
     width:270px;
     border: 1px solid black;
-   
+   overflow: hidden;
 }
 .transactionHistory th{
     background-color: rgb(32, 209, 225);
@@ -19,7 +19,7 @@ text-align: center;
 }
 
 .transactionHistory tbody tr:hover{
-    transform: scale(1.05);
+    transform: scale(1.03);
     background-color: rgb(77, 210, 90);
 }
 
