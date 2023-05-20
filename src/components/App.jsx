@@ -25,11 +25,10 @@ export const App = () => {
         fontSize: 40,
         color: '#010101'
       }}
-    >
-    </Profile>
+    />
     <Statistics 
       title="Upload stats" stats={stateData} />
     <FriendList friends={friends} />
-    <TransactionHistory transactions={transactions}></TransactionHistory>
+    <TransactionHistory transactions={transactions}/>
 </>);
 };
