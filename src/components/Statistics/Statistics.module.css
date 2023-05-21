@@ -14,8 +14,6 @@ overflow: hidden;
     border-color: rgb(5, 43, 231);
     background-color: rgb(136, 242, 242);
     animation: pulsare 1s ease-in-out;
-        background-color: var(--hover-focus);
-        color: var(--text-color-title-white);
 }
 
 @keyframes pulsare {

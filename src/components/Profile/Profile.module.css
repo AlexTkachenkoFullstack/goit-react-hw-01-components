@@ -17,8 +17,6 @@ border-radius: 10px;
 
 .profile:hover{
     animation: pulsare 1s ease-in-out;
-    background-color: var(--hover-focus);
-    color: var(--text-color-title-white);
 }
 
 @keyframes pulsare {
