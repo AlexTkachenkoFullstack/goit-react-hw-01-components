@@ -3,12 +3,14 @@
     margin-right: auto;
     display: flex;
     align-items: center;
+    justify-content: center;
     padding-top: 15px;
     flex-direction: column;
     text-align: center;
 width:272px;
 height: auto;
 background-color: rgb(205, 252, 252);
+color: #010101;
 border-radius: 10px;
 }
 

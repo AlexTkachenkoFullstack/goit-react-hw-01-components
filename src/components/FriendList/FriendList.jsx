@@ -3,11 +3,15 @@ import css from './FriendList.module.css'
 import { FriendListItem } from "components/FriendListItem/FriendListItem"
 export const FriendList = ({ friends }) => {
     return (<ul className={css.friendList}>
-            <FriendListItem friends={friends} />
-    </ul>
-        )
+            {friends.map((friend) => { return (<FriendListItem key={ friend.id} friend={friend}/>)})} 
+           </ul>
+           )
 }
 
 FriendList.propTypes = {
-        friends: PropTypes.array
+        friend: PropTypes.arrayOf(
+                PropTypes.exact({
+                        id: PropTypes.number.isRequired,
+                })
+        )
 }
