@@ -1,4 +1,5 @@
 .profile{
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -12,6 +13,19 @@ height: auto;
 background-color: rgb(205, 252, 252);
 color: #010101;
 border-radius: 10px;
+}
+
+.profile:hover{
+    animation: pulsare 1s ease-in-out;
+    background-color: var(--hover-focus);
+    color: var(--text-color-title-white);
+}
+
+@keyframes pulsare {
+    0% {
+        box-shadow: 0 0 25px #5ddcff,
+            0 0 50px #4e00c2;
+    }
 }
 
 .profile:hover{
